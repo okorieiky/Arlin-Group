@@ -1,0 +1,162 @@
+*    {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+html  {
+    font-size: 62.5%;
+}
+
+a      {
+    text-decoration: none;
+}
+
+body   {
+    background: rgb(210, 213, 214);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1     {
+    font-size: 5.5rem;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 2rem;
+    color: blue;
+}
+
+p      {
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-align: center;
+    color: blue;
+}
+
+nav ul  {
+    margin: 1rem;
+}
+
+ul      {
+    list-style-type: none;
+    margin: 0;
+    padding: 1.6rem;
+
+}
+
+li a    {
+    display: inline;
+    width:25rem;
+    float: right;
+    color:black;
+    font-size: 1.5rem;
+    padding: 0.8rem;
+    font-weight: 600;
+    text-align: center;
+}
+
+li a:hover {
+    background: black;
+    color: white;
+}
+
+.container  {
+    display: flex;
+    padding: 5rem;
+    justify-content: space-evenly;
+    align-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 2rem;
+    row-gap: 2rem;
+}
+img        {
+    max-width: 100%;
+}
+.cup       {
+   max-width: 45% ;
+   padding: 2rem;
+   line-height: 1.5;
+   background: rgb(179, 183, 187);
+
+    
+}
+
+
+.drug     {
+    max-width: 45%;
+   padding: 2rem;
+   line-height: 1.5;
+   background: rgb(179, 183, 187);
+   
+
+}
+
+.aca      {
+    max-width: 45%;
+   padding: 2rem;
+   line-height: 1.5;
+   background: rgb(179, 183, 187);
+   
+}
+
+.jon      {
+    max-width:45%;
+   padding: 2rem;
+   line-height: 1.5;
+   background: rgb(179, 183, 187);
+   
+}
+
+div p    {
+    text-align: center;
+    font-size: 1.7rem;
+    color: black;
+}
+
+div h2   {
+    font-size: 2.4rem;
+    text-align: center;
+    color: blue;
+}
+.foot  {
+    display: flex;
+    padding: 5rem;
+    justify-content: space-evenly;
+    align-content: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    background: black;
+    color: white;
+}
+
+h3      {
+    font-size: 2rem;
+    padding-bottom: 0.9rem;
+    color: blue;
+}
+li #can   {
+    color: white;
+    text-align: left;
+    font-weight: 300;
+}
+
+li #can:hover {
+    background: blue;
+}
+
+.logo1    {
+    font-size: 1.5rem;
+
+}
+
+#wan  {
+    color:white;
+}
+.last   {
+    background: rgb(179, 183, 187);
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 700;
+    border-radius: 2rem;
+
+}
