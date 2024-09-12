@@ -1,179 +1,305 @@
-*    {
-    margin:0;
-    padding:0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-html  {
-    font-size: 62.5%;
+html {
+  font-size: 62.5%;
 }
 
-a      {
-    text-decoration: none;
+a {
+  text-decoration: none;
 }
 
-body   {
-    background: rgb(210, 213, 214);
-    font-family: Arial, Helvetica, sans-serif;
+body {
+  background: rgb(210, 213, 214);
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-h1     {
-    font-size: 5.5rem;
-    font-weight: 700;
-    text-align: center;
-    padding-top: 2rem;
-    color: blue;
+h1 {
+  font-size: 5.5rem;
+  font-weight: 700;
+  text-align: center;
+  padding-top: 2rem;
+  color: blue;
 }
 
-p      {
-    font-size: 1.5rem;
-    font-weight: 600;
-    text-align: center;
-    color: blue;
+p {
+  font-size: 1.5rem;
+  font-weight: 600;
+  text-align: center;
+  color: blue;
 }
 
-nav ul  {
-    margin: 1rem;
+nav ul {
+  margin: 1rem;
 }
 
-ul      {
-    list-style-type: none;
-    margin: 0;
-    padding: 1.6rem;
-
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 1.6rem;
 }
 
-li a    {
-    display: inline;
-    width:25rem;
-    float: right;
-    color:black;
-    font-size: 1.5rem;
-    padding: 0.8rem;
-    font-weight: 600;
-    text-align: center;
+li a {
+  display: inline;
+  width: 25rem;
+  float: right;
+  color: black;
+  font-size: 1.5rem;
+  padding: 0.8rem;
+  font-weight: 600;
+  text-align: center;
 }
 
 li a:hover {
-    background: black;
-    color: white;
+  background: black;
+  color: white;
 }
 
-.container  {
-    display: flex;
-    padding: 5rem;
-    justify-content: space-evenly;
-    align-content: center;
-    flex-direction: row;
-    flex-wrap: wrap;
-    row-gap: 1rem;
-    column-gap: 2rem;
-   
+.container {
+  display: flex;
+  padding: 5rem;
+  justify-content: space-evenly;
+  align-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  row-gap: 1rem;
+  column-gap: 2rem;
 }
-img        {
-    max-width: 100%;
-    opacity: 0.5;
-}
-
-img:hover  {
-    opacity: 1;
-}
-.cup       {
-   max-width: 95% ;
-   padding: 1rem;
-   line-height: 1.5;
-   background: rgb(179, 183, 187);
-   flex-grow: 1;
-
+img {
+  max-width: 100%;
+  opacity: 0.5;
 }
 
-.drug     {
-    max-width: 45%;
-   padding: 2rem;
-   line-height: 1.5;
-   background: rgb(179, 183, 187);
-   
-
+img:hover {
+  opacity: 1;
+}
+.cup {
+  max-width: 95%;
+  padding: 1rem;
+  line-height: 1.5;
+  background: rgb(179, 183, 187);
+  flex-grow: 1;
 }
 
-.aca      {
-    max-width: 45%;
-   padding: 2rem;
-   line-height: 1.5;
-   background: rgb(179, 183, 187);
-   
+.drug {
+  max-width: 45%;
+  padding: 2rem;
+  line-height: 1.5;
+  background: rgb(179, 183, 187);
 }
 
-.jon      {
-    max-width:45%;
-   padding: 2rem;
-   line-height: 1.5;
-   background: rgb(179, 183, 187);
-   
+.aca {
+  max-width: 45%;
+  padding: 2rem;
+  line-height: 1.5;
+  background: rgb(179, 183, 187);
 }
 
-div p    {
-    text-align: left;
-    font-size: 1.3rem;
-    color: black;
+.jon {
+  max-width: 45%;
+  padding: 2rem;
+  line-height: 1.5;
+  background: rgb(179, 183, 187);
 }
 
-div h2   {
-    font-size: 2rem;
-    text-align: center;
-    color: blue;
+div p {
+  text-align: left;
+  font-size: 1.3rem;
+  color: black;
 }
 
-.middle   {
-    max-width: 55rem;
-    margin-left: 2rem;
-    font-size: 2rem;
-    line-height: 1.5;
-    padding: 1.4rem;
-    background: rgb(179, 183, 187);
+div h2 {
+  font-size: 2rem;
+  text-align: center;
+  color: blue;
 }
 
-.foot  {
-    display: flex;
-    padding: 5rem;
-    justify-content: space-evenly;
-    align-content: center;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    background: black;
-    color: white;
+.middle {
+  max-width: 55rem;
+  margin-left: 2rem;
+  font-size: 2rem;
+  line-height: 1.5;
+  padding: 1.4rem;
+  background: rgb(179, 183, 187);
 }
 
-h3      {
-    font-size: 2rem;
-    padding-bottom: 0.9rem;
-    color: blue;
+.foot {
+  display: flex;
+  padding: 5rem;
+  justify-content: space-evenly;
+  align-content: center;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  background: black;
+  color: white;
 }
-li #can   {
-    color: white;
-    text-align: left;
-    font-weight: 300;
+
+h3 {
+  font-size: 2rem;
+  padding-bottom: 0.9rem;
+  color: blue;
+}
+li #can {
+  color: white;
+  text-align: left;
+  font-weight: 300;
 }
 
 li #can:hover {
-    background: blue;
+  background: blue;
 }
 
-.logo1    {
-    font-size: 1.5rem;
-
+.logo1 {
+  font-size: 1.5rem;
 }
 
-#wan  {
-    color:white;
+#wan {
+  color: white;
 }
-.last   {
-    background: rgb(179, 183, 187);
+.last {
+  background: rgb(179, 183, 187);
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 700;
+  border-radius: 2rem;
+}
+
+@media (min-width: 601px) and (max-width: 1024px) {
+  /* Navigation Adjustments */
+  nav ul {
+    padding: 1.5rem;
+  }
+
+  li a {
+    width: auto;
+    float: none;
+    font-size: 1.4rem;
+    padding: 0.8rem;
+  }
+
+  /* Container Adjustments */
+  .container {
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 2rem;
+    row-gap: 1.5rem;
+    column-gap: 1.5rem;
+  }
+
+  /* Image Adjustments */
+  img {
+    max-width: 100%;
+    opacity: 0.8;
+  }
+
+  /* Text Adjustments */
+  h1 {
+    font-size: 4rem;
+    padding-top: 1.5rem;
+  }
+
+  p {
+    font-size: 1.4rem;
+  }
+
+  div p {
+    font-size: 1.4rem;
+  }
+
+  div h2 {
+    font-size: 2rem;
+  }
+
+  .middle {
+    max-width: 100%;
+    margin-left: 0;
+    font-size: 1.8rem;
+  }
+
+  /* Footer Adjustments */
+  .foot {
+    flex-direction: row;
+    padding: 3rem;
+  }
+
+  h3 {
+    font-size: 1.8rem;
+  }
+
+  .last {
+    font-size: 1.4rem;
+    padding: 1.5rem;
+  }
+}
+
+@media (max-width: 600px) {
+  /* Navigation Adjustments */
+  nav ul {
+    padding: 1rem;
+    margin: 0;
+  }
+
+  li a {
+    width: 100%;
+    float: none;
+    font-size: 1.2rem;
+    padding: 1rem;
     text-align: center;
+  }
+
+  /* Container Adjustments */
+  .container {
+    flex-direction: column;
+    padding: 1rem;
+    row-gap: 1rem;
+    column-gap: 0;
+  }
+
+  /* Image Adjustments */
+  img {
+    max-width: 100%;
+    opacity: 0.7;
+  }
+
+  /* Text Adjustments */
+  h1 {
+    font-size: 3rem;
+    padding-top: 1rem;
+  }
+
+  p {
+    font-size: 1.2rem;
+  }
+
+  div p {
+    font-size: 1.2rem;
+  }
+
+  div h2 {
+    font-size: 1.8rem;
+  }
+
+  .middle {
+    max-width: 100%;
+    margin-left: 0;
+    font-size: 1.6rem;
+  }
+
+  /* Footer Adjustments */
+  .foot {
+    flex-direction: column;
+    padding: 2rem;
+  }
+
+  h3 {
     font-size: 1.5rem;
-    font-weight: 700;
-    border-radius: 2rem;
+  }
 
+  .last {
+    font-size: 1.3rem;
+    padding: 1rem;
+  }
 }
-
-
